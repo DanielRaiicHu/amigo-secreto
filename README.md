@@ -28,7 +28,7 @@ Puedes acceder repositorio del proyecto desde <A HREF="https://github.com/Daniel
 
 <h2>🚀 Ejecutar el Proyecto</h2>
 
-Para ejecutar la aplicación debes abrir el archivo <b><i>index.html</i></b> en un navegador web o bien pinchar <A HREF="a-modificar">aquí</A>.
+Para ejecutar la aplicación debes abrir el archivo <b><i>index.html</i></b> en un navegador web o bien pinchar <A HREF="https://danielraiichu.github.io/amigo-secreto/">aquí</A>.
 
 <h2>🖥️ Como Usar </h2>
 
