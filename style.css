@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-primary: #2875b8;
+    --color-secondary: #e6c475;
+    --color-tertiary: #32a6e0;
+    --color-button: #32a6e0;
+    --color-button-hover: #b9552e;
+    --color-text: #2875b8;
+    --color-white: #f6f6f6;
 }
 
 /* Estilos generales */
@@ -43,7 +43,7 @@ body {
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
-    border: 1px solid #000;
+    border: 1px solid #4049ab;
     border-radius: 64px 64px 0 0;
     display: flex;
     flex-direction: column;
@@ -82,7 +82,7 @@ body {
 .input-name {
     width: 100%;
     padding: 10px;
-    border: 2px solid #000;
+    border: 2px solid #f1efef;
     border-radius: 25px 0 0 25px;
     font-size: 16px;
 }
@@ -97,11 +97,11 @@ body {
     flex: 1;
     padding: 10px 15px;
     font-size: 16px;
-    border: 2px solid #333;
+    border: 2px solid #103e8e;
     border-right: none;
     border-radius: 25px 0 0 25px;
     font-family: "Merriweather", serif;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(230, 9, 9, 0.3);
 }
 
 /* Estilos de botón */
@@ -109,20 +109,20 @@ button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
-    border: 2px solid #0a0a0a;
+    border: 2px solid #f9f5f5;
     border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(241, 240, 240, 0.3);
     cursor: pointer;
 }
 
 .button-add {
     background-color: var(--color-tertiary);
-    color: var(--color-text);
+    color: var(--color-white);
     border-radius: 0 25px 25px 0;
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #b9552e;
 }
 
 /* Listas */
@@ -130,13 +130,14 @@ ul {
     list-style-type: none;
     color: var(--color-text);
     font-family: "Inter", sans-serif;
+    font-weight: bold;
     font-size: 18px;
     margin: 20px 0;
 }
 
 .result-list {
     margin-top: 15px;
-    color: #2605df;
+    color: #07528f;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
